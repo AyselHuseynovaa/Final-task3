@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body #webpage header {
+  height: 9rem;
+}
+
+body #webpage header span {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+body #webpage header .nav1 {
+  background-color: #f7e8ea;
+  height: 3rem;
+  padding: 0.5rem 4rem;
+}
+
+body #webpage header .nav1 .left-col1 img {
+  padding-bottom: 10px;
+}
+
+body #webpage header .nav1 .right-col1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body #webpage header .nav2 {
+  height: 6rem;
+  border-bottom: 1px groove;
+  padding: 2rem 4rem;
+}
+
+body #webpage header .nav2 .left-col2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body #webpage header .nav2 .left-col2 img {
+  padding-bottom: 5px;
+}
+
+body #webpage header .nav2 .center-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #webpage header .nav2 .center-col .logo {
+  font-size: 3rem;
+  color: #f8236a;
+  opacity: 0.5;
+  font-family: "Abril Fatface", cursive;
+}
+
+body #webpage header .nav2 .right-col2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body #webpage header .nav2 .right-col2 .nav a {
+  font-size: 22px;
+  font-weight: 600;
+  margin-right: 2rem;
+  color: black;
+  text-decoration: none;
+}
+
+body #webpage header .nav2 .right-col2 .nav a:nth-child(3) {
+  margin-right: 0;
+}
+
+body #webpage header .nav2 .right-col2 .nav img {
+  padding-bottom: 10px;
+}
+
+body #webpage main {
+  min-height: 1000px;
+  margin: 2rem 4rem;
+}
+
+body #webpage main .left-col3 .text {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+body #webpage main .left-col3 .parent-box1 {
+  min-height: 800px;
+  background-image: url(../img/scosh3011344555_q2_2-0._SX664_QL90_.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body #webpage main .left-col3 .parent-box1 .item1 div {
+  border: 1px solid white;
+  background-color: white;
+  margin: 2rem;
+}
+
+body #webpage main .left-col3 .parent-box1 .item1 div span {
+  font-size: 23px;
+  font-weight: 500;
+  padding: 20px;
+}
+
+body #webpage main .left-col3 .parent-box1 .item2 div img {
+  margin: 2rem;
+  width: 35px;
+}
+
+body #webpage main .right-col3 {
+  margin: 5rem 7rem;
+}
+
+body #webpage main .right-col3 .box1 h2 {
+  font-size: 45px;
+}
+
+body #webpage main .right-col3 .box1 span {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+body #webpage main .right-col3 .box2 {
+  border: 1px groove;
+  height: 500px;
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #webpage main .right-col3 .box2 span {
+  font-size: 20px;
+}
+
+body #webpage main .right-col3 .box2 form {
+  margin: 2rem;
+}
+
+body #webpage main .right-col3 .box2 form .email-box {
+  width: 30rem;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+body #webpage main .right-col3 .box2 form label {
+  font-size: 18px;
+}
+
+body #webpage main .right-col3 .box2 form .btn {
+  margin-top: 1rem;
+  background-color: #f5e1e4;
+  padding: 7px;
+  width: 30rem;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    margin: 0;
+    padding: 0;
+  }
+  header .nav1 {
+    display: none;
+  }
+  header .nav2 .left-col2,
+  header .nav2 .right-col2 {
+    display: none !important;
+  }
+  header .nav2 .center-col .logo h1 {
+    font-size: 35px;
+  }
+  main {
+    margin: 0 !important;
+  }
+  main .left-col3 .parent-box1 .item1 div span {
+    font-size: 18px !important;
+  }
+  main .left-col3 .parent-box1 .item2 div img {
+    width: 25px !important;
+  }
+  main .right-col3 {
+    margin: 0 !important;
+  }
+  main .right-col3 .box1 h2 {
+    font-size: 35px !important;
+    font-weight: 700;
+  }
+  main .right-col3 .box1 span {
+    font-size: 25px !important;
+  }
+  main .right-col3 .box2 {
+    border: 1px groove !important;
+    border-radius: 15px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  main .right-col3 .box2 h1 {
+    font-size: 35px !important;
+    font-weight: 700 !important;
+  }
+  main .right-col3 .box2 span {
+    font-size: 17px !important;
+    font-weight: 500;
+    text-align: center;
+  }
+  main .right-col3 .box2 form {
+    margin: 0 !important;
+  }
+  main .right-col3 .box2 form .email-box {
+    width: 10rem !important;
+    margin-top: 1rem !important;
+    border: 1px solid;
+  }
+  main .right-col3 .box2 form .btn {
+    width: 10rem !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

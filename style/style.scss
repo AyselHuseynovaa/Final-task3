@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  #webpage {
+    header {
+      span {
+        font-size: 22px;
+        font-weight: 400;
+      }
+      height: 9rem;
+      .nav1 {
+        background-color: rgb(247, 232, 234);
+        height: 3rem;
+        padding: 0.5rem 4rem;
+
+        .left-col1 {
+          img {
+            padding-bottom: 10px;
+          }
+        }
+        .right-col1 {
+          display: flex;
+          justify-content: flex-end;
+        }
+      }
+      .nav2 {
+        height: 6rem;
+        border-bottom: 1px groove;
+        padding: 2rem 4rem;
+
+        .left-col2 {
+          display: flex;
+          justify-content: flex-start;
+
+          img {
+            padding-bottom: 5px;
+          }
+        }
+        .center-col {
+          display: flex;
+          justify-content: center;
+
+          .logo {
+            font-size: 3rem;
+            color: rgb(248, 35, 106);
+            opacity: 0.5;
+            font-family: "Abril Fatface", cursive;
+          }
+        }
+        .right-col2 {
+          display: flex;
+          justify-content: flex-end;
+          .nav {
+            a {
+              font-size: 22px;
+              font-weight: 600;
+              margin-right: 2rem;
+              &:nth-child(3) {
+                margin-right: 0;
+              }
+              color: black;
+              text-decoration: none;
+            }
+            img {
+              padding-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    main {
+      min-height: 1000px;
+      margin: 2rem 4rem;
+      .left-col3 {
+        .text {
+          margin-top: 1rem;
+          margin-bottom: 3rem;
+        }
+        .parent-box1 {
+          min-height: 800px;
+          background-image: url(../img/scosh3011344555_q2_2-0._SX664_QL90_.jpg);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          .item1 {
+            div {
+              border: 1px solid white;
+              background-color: white;
+              margin: 2rem;
+              span {
+                font-size: 23px;
+                font-weight: 500;
+                padding: 20px;
+              }
+            }
+          }
+          .item2 {
+            div {
+              img {
+                margin: 2rem;
+                width: 35px;
+              }
+            }
+          }
+        }
+      }
+      .right-col3 {
+        margin: 5rem 7rem;
+
+        .box1 {
+          h2 {
+            font-size: 45px;
+          }
+          span {
+            font-size: 30px;
+            font-weight: 400;
+          }
+        }
+        .box2 {
+          border: 1px groove;
+          height: 500px;
+
+          margin-top: 4rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          span {
+            font-size: 20px;
+          }
+          form {
+            margin: 2rem;
+            .email-box {
+              width: 30rem;
+              padding: 10px;
+              margin-bottom: 1rem;
+            }
+
+            label {
+              font-size: 18px;
+            }
+            .btn {
+              margin-top: 1rem;
+              background-color: rgb(245, 225, 228);
+              padding: 7px;
+              width: 30rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  header {
+    margin: 0;
+    padding: 0;
+    .nav1 {
+      display: none;
+    }
+    .nav2 {
+      .left-col2,
+      .right-col2 {
+        display: none !important;
+      }
+      .center-col {
+        .logo {
+          h1 {
+            font-size: 35px;
+          }
+        }
+      }
+    }
+  }
+  main {
+    margin: 0 !important;
+    .left-col3 {
+      .parent-box1 {
+      
+        .item1 {
+          div {
+            span {
+              font-size: 18px !important;
+            }
+          }
+        }
+        .item2 {
+          div {
+            img {
+              width: 25px !important;
+            }
+          }
+        }
+      }
+    }
+    .right-col3 {
+      margin: 0 !important;
+      .box1 {
+        h2 {
+          font-size: 35px !important;
+          font-weight: 700;
+        }
+        span {
+          font-size: 25px !important;
+        }
+      }
+      .box2 {
+        border: 1px groove !important;
+        border-radius: 15px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        h1 {
+          font-size: 35px !important;
+          font-weight: 700 !important;
+        }
+        span {
+          font-size: 17px !important;
+          font-weight: 500;
+          text-align: center;
+        }
+        form {
+          margin: 0 !important;
+          .email-box {
+            width: 10rem !important;
+            margin-top: 1rem !important;
+            border: 1px solid;
+          }
+          .btn {
+            width: 10rem !important;
+          }
+        }
+      }
+    }
+  }
+}
